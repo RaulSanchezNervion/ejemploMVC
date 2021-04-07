@@ -11,7 +11,7 @@ import menu.Menu;
  * Obtiene información de las clases(modelo) para pasarselas al Menu (vista) para mostrarla.
  * 
  * 
- * El Menu (vista) nunca llama a metodos del modelo (clases).
+ * El Menu (vista) nunca crea objetos del modelo (clases).
  * Las clases (modelo) nunca llama a metodos del Menu (vista)
  * Nunca el controlador, ni las clases (modelo) deben mostrar o solicitar información (No syso, ni scanner)
  * 
